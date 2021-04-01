@@ -1,0 +1,54 @@
+.RAcontainer{
+  height: 100vh;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+
+}
+.RApaddingimg{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.RApaddingtxt{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#demoimage {
+  float: left ;
+}
+
+table{
+  width: 400px;
+  border-spacing: 40px;
+}
+th {
+  text-align: left;
+  background-color: #70D1EE  ;
+}
+
+table, th, td {
+  border: 2px solid #283747  ;
+  border-collapse: collapse;
+  text-align: center;
+}
+th, td {
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #FEFFA0;
+}
+tr:nth-child(odd) {
+  background-color: #FAD6FC   ;
+}
+@media (max-width:768px) {
+   ..RAcontainer .RApaddingtxt .RApaddingimg #demoimage {
+    width: 30%;
+  }
+  }
+  @media (max-width:768px) {
+   table , td , th , tr{
+    width: 30%;
+  }
+  }
